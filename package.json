@@ -1,16 +1,20 @@
 {
   "name": "starter-parcel",
   "version": "1.0.0",
-  "description": "",
+  "description": "parcel boilerplate",
   "main": "./docs/index.html",
+  "keywords": ["parcel", "boilerplate"],
+  "author": "7ylee",
+  "license": "MIT",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/fe-grinder/starter-parcel.git"
+  },
   "scripts": {
     "start": "parcel src/index.html --open --out-dir dev",
     "build": "rm -rf  docs && parcel build src/index.html --no-source-maps --out-dir docs --public-url '/starter-parcel/'",
     "lint": "eslint src"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "devDependencies": {
     "babel-eslint": "^10.0.1",
     "eslint": "^5.16.0",
@@ -25,7 +29,5 @@
     "prettier": "^1.17.1",
     "sass": "^1.20.1"
   },
-  "dependencies": {
-    "normalize.css": "^8.0.1"
-  }
+  "dependencies": {}
 }
