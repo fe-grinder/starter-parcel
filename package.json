@@ -3,12 +3,15 @@
   "version": "1.0.0",
   "description": "parcel boilerplate",
   "main": "./docs/index.html",
-  "keywords": ["parcel", "boilerplate"],
+  "keywords": [
+    "parcel",
+    "boilerplate"
+  ],
   "author": "7ylee",
   "license": "MIT",
   "repository": {
-    "type" : "git",
-    "url" : "https://github.com/fe-grinder/starter-parcel.git"
+    "type": "git",
+    "url": "https://github.com/fe-grinder/starter-parcel.git"
   },
   "scripts": {
     "start": "parcel src/index.html --open --out-dir dev",
